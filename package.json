@@ -1,0 +1,29 @@
+{
+  "name": "com.nostr.band",
+  "displayName": "Nostr.Band",
+  "version": "1.0.0",
+  "description": "Nostr.Band ios app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^12.0.0",
+    "cordova-plugin-device": "^2.1.0",
+    "nostr-cordova-plugin-secure-key": "git+https://github.com/nostrband/nostr-keystore-cordova-plugin.git"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-device": {},
+      "cordova-plugin-secure-key-store": {}
+    }
+  }
+}
