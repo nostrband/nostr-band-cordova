@@ -23,7 +23,7 @@
     ],
     "plugins": {
       "cordova-plugin-device": {},
-      "cordova-plugin-secure-key-store": {}
+      "nostr-cordova-plugin-secure-key": {}
     }
   }
 }
